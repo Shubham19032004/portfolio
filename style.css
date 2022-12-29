@@ -1,0 +1,189 @@
+/* fonts from google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&family=Ubuntu&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100vw;
+    overflow-x: hidden;
+}
+.head{
+    background-image: url("images/banner-bg.png");
+}
+.navbarcolor
+  {
+    text-decoration: none;
+    
+  }
+ 
+.navbar{
+  color: white;
+  padding-bottom: 4rem;
+}
+.navbar-brand{
+    margin-left: 3rem;
+  color: white;
+  font-size: 3rem;
+  font-weight: 300;
+}
+.nav-link{
+    text-align: center;
+    margin-right: 3rem;
+  font-family: 'Ubuntu', sans-serif;
+    border-radius: 1rem;
+    color: white;
+    text-decoration: none;
+    background-color: black;
+    border: solid #810CA8;
+    padding: 1rem;
+    width: 7rem;
+}
+/* introdution part */
+.intro{
+    font-family: 'Montserrat', sans-serif;
+    display: inline-block;
+    color: white;
+    margin: 10rem 2rem;
+    padding: 2rem;
+    width: 50%;
+    font-size: 1.5rem;
+    line-height: 3rem;
+}
+.intro p{
+    font-size: 2rem;
+}
+.astronaut{
+    padding: 6rem 0 0 3rem;
+    text-align: center;
+}
+.details{
+    background-color: black;
+    color: white;
+
+}
+.Intro-button{
+    text-align: center;
+    padding: 1rem;
+
+}
+#skills,#projects,#work,#about{
+ 
+    border-radius: 1rem;
+    width: 7rem;
+    color: white;
+    text-decoration: none;
+    background-color: black;
+    border: solid #810CA8;
+    height: 3rem;
+
+}
+
+#button-detalis{
+    align-items: center;
+    width:70%;
+    height: 19rem;
+    margin-left: 15rem;
+    display: inline-block;
+    
+}
+#para{
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    padding:5rem 0 ;
+    font-size: 2rem;
+    
+}
+
+.footer{
+    margin: 0;
+    color: white;
+    height: 15rem;
+    background-image: url("images/footer-bg.png");
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    padding-top: 3rem;
+}
+.footer-icon{
+    text-decoration: none;
+    padding: 1rem;
+    color: #810CA8;
+    font-size: 2rem;
+    margin-bottom: 3rem
+
+}
+.projects{
+    background-color: black;
+    color: white;
+    height: 40rem;
+    width: 100%;
+    padding-left: 23rem;
+}
+.project-box{
+    width: 18rem;
+    margin-left: 2rem;
+    height: 32rem;
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    padding: 6px;
+
+}
+.project-text{
+    color: white;
+    margin-left: 15rem;
+    border-radius: 4px;
+    
+}
+.card-img-top{
+    border-radius: 5px;
+    height: 17rem;
+}
+/* github button for projects */
+.github{
+    text-align: center;
+    margin: 4rem;
+  font-family: 'Ubuntu', sans-serif;
+    border-radius: 1rem;
+    color: white;
+    text-decoration: none;
+    background-color: black;
+    border: solid #810CA8;
+    padding: 1rem;
+    width: 7rem;
+
+
+}
+
+
+.github:hover{
+    box-shadow: 0 5px 50px 0 #810CA8 inset,0 5px 50px 0 #810CA8 ;
+
+}
+#about:hover{ box-shadow: 0 5px 50px 0 #810CA8 inset,0 5px 50px 0 #810CA8 ;}
+#skills:hover{
+    box-shadow: 0 5px 50px 0 #810CA8 inset,0 5px 50px 0 #810CA8 ;
+}
+#projects:hover{
+    box-shadow: 0 5px 50px 0 #810CA8 inset,0 5px 50px 0 #810CA8 ;
+}
+#work:hover{
+    box-shadow: 0 5px 50px 0 #810CA8 inset,0 5px 50px 0 #810CA8 ;
+}
+.nav-link:hover{ box-shadow: 0 5px 50px 0 #810CA8 inset,0 5px 50px 0 #810CA8 ;}
+.footer-icon:hover{
+   color:white;
+}
+
+/* for screens less than 1028px */
+@media (max-width:1028px) {
+    #para{
+        margin-right: 25rem;
+    } 
+    .projects{
+        height: 80rem;
+        padding-left: 10rem;
+        padding-top: 5rem;
+    }
+}
